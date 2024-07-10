@@ -91,7 +91,7 @@ if (window.matchMedia("(orientation: portrait)").matches){
             itemsBtns.append(btn_items_left);
 
             let btn1 = document.createElement('img');
-            btn1.src = '../images/blcok_3_vector1.png';
+            btn1.src = 'images/blcok_3_vector1.png';
             btn_items_left.append(btn1);
             for (let i = 0; i < 5; i++){
                 let circle = document.createElement('div');
@@ -109,7 +109,7 @@ if (window.matchMedia("(orientation: portrait)").matches){
             itemsBtns.append(btn_items_right);
 
             let btn2 = document.createElement('img');
-            btn2.src = '../images/blcok_3_vector2.png';
+            btn2.src = 'images/blcok_3_vector2.png';
             btn_items_right.append(btn2);
 
             function moveItems(){
