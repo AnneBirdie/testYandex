@@ -2,7 +2,7 @@ function logo(){
     let logo = document.querySelector('.logo');
     for (let i = 0; i < 4; i++) {
         let img = document.createElement("img");
-        img.src = "../images/icon.png";
+        img.src = "images/icon.png";
         logo.appendChild(img);
     }
 }
