@@ -36,7 +36,7 @@ if (window.matchMedia("(orientation: portrait)").matches){
     let block_1_top = document.querySelectorAll('.block_1_top');
     block_1_top[0].innerHTML = `<p>Чтобы поддержать
                     Международный васюкинский турнир <p>
-                    < src="images/block_1_1.png" alt="Men Playing Chess">
+                    <img src="images/block_1_1.png" alt="Men Playing Chess">
                     <p> посетите лекцию на тему:
                     <span>«Плодотворная дебютная идея»</span>
                     </p>
