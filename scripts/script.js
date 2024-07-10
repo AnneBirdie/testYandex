@@ -20,7 +20,7 @@ function showParticipants(){
     for (let i = 0; i < participants.length; i++) {
         slider_items.innerHTML += 
             `<div class='block_3_items'>
-                <div class='block_3_item_img'><img src = '../images/block_3.png'></div>
+                <div class='block_3_item_img'><img src = 'images/block_3.png'></div>
                 <div class='block_3_item_name'>${participants[i][0]}</div>
                 <div class='block_3_item_rank'>${participants[i][1]}</div>
                 <div class='block_3_item_btn'>Подробнее</div>
@@ -48,7 +48,7 @@ if (window.matchMedia("(orientation: portrait)").matches){
     block_2_top[0].innerHTML = `<div class = "titles">Этапы преображения Васюков</div>
                                 <p class = "text">Будущие источники обогащения васюкинцев</p>`;
     let img = document.createElement('img');
-    img.src = "../images/block_2.png";
+    img.src = "images/block_2.png";
     block_2_top[0].append(img);
     
     function showItemsMobile(){
