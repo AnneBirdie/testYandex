@@ -36,7 +36,7 @@ if (window.matchMedia("(orientation: portrait)").matches){
     let block_1_top = document.querySelectorAll('.block_1_top');
     block_1_top[0].innerHTML = `<p>Чтобы поддержать
                     Международный васюкинский турнир <p>
-                    <img src="images/block_1_1.png" alt="Men Playing Chess">
+                    < src="images/block_1_1.png" alt="Men Playing Chess">
                     <p> посетите лекцию на тему:
                     <span>«Плодотворная дебютная идея»</span>
                     </p>
@@ -91,7 +91,7 @@ if (window.matchMedia("(orientation: portrait)").matches){
             itemsBtns.append(btn_items_left);
 
             let btn1 = document.createElement('img');
-            btn1.src = '../images/blcok_3_vector1.png';
+            btn1.src = 'images/blcok_3_vector1.png';
             btn_items_left.append(btn1);
             for (let i = 0; i < 5; i++){
                 let circle = document.createElement('div');
@@ -109,7 +109,7 @@ if (window.matchMedia("(orientation: portrait)").matches){
             itemsBtns.append(btn_items_right);
 
             let btn2 = document.createElement('img');
-            btn2.src = '../images/blcok_3_vector2.png';
+            btn2.src = 'images/blcok_3_vector2.png';
             btn_items_right.append(btn2);
 
             function moveItems(){
@@ -274,7 +274,7 @@ if (window.matchMedia("(orientation: portrait)").matches){
             }
             let block_2_items = document.querySelectorAll('.block_2_item');
             let img = document.createElement('img');
-            img.src = "../images/block_2.png";
+            img.src = "images/block_2.png";
             block_2_items[6].append(img);
         
     }
